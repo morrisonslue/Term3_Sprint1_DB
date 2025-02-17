@@ -16,7 +16,7 @@ For full project details, requirements, and grading criteria, refer to the [assi
   - **These files are optional** and can be removed or reorganized as needed.
 - **CLI Application (`cli-app/`)**:
   - This folder contains a **skeleton/template** for your CLI application.
-  - The required features and functionality are outlined in the [assignment sheet](https://menglishca.github.io/keyin-course-notes/fullstack/sprints/midterm-database/)
+  - The required features and functionality are outlined in the [assignment sheet](https://menglishca.github.io/keyin-course-notes/databases/sprints/midterm/)
 
 ## Getting Started (CLI App)
 Follow these steps to set up and run the **CLI application**:
@@ -47,6 +47,6 @@ Follow these steps to set up and run the **CLI application**:
 - **Push your completed work to GitHub** before the deadline.
 - **Submit your repository link on Teams** under the appropriate assignment.
 
-For any questions, refer to the [assignment sheet](https://menglishca.github.io/keyin-course-notes/fullstack/sprints/midterm-database/) or ask on Teams!
+For any questions, refer to the [assignment sheet](https://menglishca.github.io/keyin-course-notes/databases/sprints/midterm/) or ask on Teams!
 
 Happy coding and good luck!
