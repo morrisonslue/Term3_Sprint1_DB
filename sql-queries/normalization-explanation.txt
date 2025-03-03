@@ -1,1 +1,26 @@
-Placeholder file, feel free to use or delete.
+First Normal Form
+
+Here, data must be stored in atomic units, with no repeating groups or multi-valued fields. 
+For this database, each column contains only a single piece of information. 
+For example, in the Speakers table, each speaker has a unique row, and their name, email, and specialty are 
+stored as separate attributes rather than being combined into one field. 
+There are no fields where multiple values are combined into a single entry.
+
+Second Normal Form
+
+This means that every non-key column must depend on the whole primary key, not just part of it. 
+As the primary keys are clear, no attributes are only partially dependent. 
+For example, in the Sessions table, all attributes—such as title, speaker_id, session_date, and session_time—depend 
+entirely on session_id, which uniquely identifies each session. 
+This ensures that we are not storing any unnecessary information that might cause duplication or inconsistencies.
+
+Third Normal Form  
+
+This is the elimination of transitive dependencies. This means non-key columns should only depend on the primary key, 
+not on another non-key columns. In our case, this was primarily a matter of 
+For this database, each table only contains information relevant to its primary key. 
+As example, in the Sessions table, only the speaker_id is stored rather than storing the speaker’s full name and email address. 
+This is because the Speakers table already has that information, and storing it in both places would be redundant. 
+If a speaker’s email needed to be updated, we would only need to update it in one place instead of tracking down every 
+session they have ever done. The same principle applies to attendees and registrations; each table contains only necessities.
+Additional details are referenced through foreign keys.
